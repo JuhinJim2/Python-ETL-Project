@@ -1,28 +1,35 @@
-# Uber Data Analytics | End to End Data Engineering
+# Python Project for Data Engineering
 
 ## Introduction
 
-An end-to-end data engineering project using an Uber dataset that involves creating a dimensional model, performing ETL with a Mage Data Pipeline on a Google Cloud Compute instance, and utilizing BigQuery for SQL queries and visualizations through Looker.
+A project assuming the role of a data engineer which deals with real-world data
+Project entails:
 
-## Architecture 
+    • Extract data from multiple data sources by reading data files, web scraping, and using APIs
+    • Transform data as required
+    • Load the processed data into a desired format or database
+    • Create a full ETL pipeline for accessing and processing data derived from public websites
+    • Create Python modules, run unit test, and pacakge applications
+
+## Project sequence 
 <img src="Sequence diagram.png">
 
-## Technology Used
-- Programming Language - Python
+## Module 01
 
-Google Cloud Platform
-1. Google Storage
-2. Compute Instance 
-3. BigQuery
-4. Looker Studio
+1. ETL Basics
+2. Extract data using web scraping 
+3. Query Databases using Python
 
-Modern Data Pipeine Tool - https://www.mage.ai/
+## Module 02
 
+1. Develop ETL pipeline
 
+## Module 03
 
-## Dataset Used
-TLC Trip Record Data
-Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
+1. Create modules
+2. Run unit test 
+3. Package applications
+4. Static code analysis
 
 
 More info about dataset can be found here:
