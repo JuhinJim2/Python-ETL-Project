@@ -3,16 +3,16 @@
 ## Introduction
 
 A project assuming the role of a data engineer which deals with real-world data
-Project entails:
+project that entails:
 
-    • Extract data from multiple data sources by reading data files, web scraping, and using APIs
+    • Extraction of data from multiple sources by reading data files, web scraping, and using APIs
     • Transform data as required
     • Load the processed data into a desired format or database
     • Create a full ETL pipeline for accessing and processing data derived from public websites
     • Create Python modules, run unit test, and pacakge applications
 
-## Project sequence 
-<img src="Sequence diagram.png">
+## Project Sequence 
+<img src="Project_sequence.png">
 
 ## Module 01
 
