@@ -3,7 +3,7 @@
 ## Introduction
 
 A project assuming the role of a data engineer which deals with real-world data
-project that entails:
+problems that dives into:
 
    1. Extraction of data from multiple sources by reading data files, web scraping, and using APIs
    2. Transform data as required
@@ -30,11 +30,6 @@ project that entails:
 2. Run unit test 
 3. Package applications
 4. Static code analysis
-
-
-More info about dataset can be found here:
-1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
 ## Data Model
 <img src="uber_data_model.png">
