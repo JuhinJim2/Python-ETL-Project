@@ -23,9 +23,10 @@ problems that dives into:
 
 ## Web scraping and Extracting Data using APIs
 
-1. Use the [requests] and [BeautifulSoup] libraries to extract the contents of a web page
-2. Analyze the HTML code of a webpage to find relevant information
-3. Extract the relevant information and save it in the required form
+1. Use the [requests],[BeautifulSoup] and [pandas] libraries to web scrape the contents of a web page.
+2. Analyze the HTML code of a webpage to find relevant information.
+3. Extract the relevant information and save in a CSV file.
+4. Load the CSV file into a SQL Database.
 
 ## Module 03
 
