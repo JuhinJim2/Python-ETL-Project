@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 
 os.chdir(r'C:\Users\audre\OneDrive\Desktop\IBM Python Project\ETL')
+
 log_file = "log_file.txt"
 target_file = "transformed_data.csv"
 
