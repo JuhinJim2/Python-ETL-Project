@@ -4,6 +4,7 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
+#Set the working directory here
 os.chdir(r'C:\Users\audre\OneDrive\Desktop\IBM Python Project\ETL')
 
 log_file = "log_file.txt"
