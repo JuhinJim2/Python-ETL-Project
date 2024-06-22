@@ -27,23 +27,24 @@ def extract_from_xml(file_to_process):
 
 def extract():
     extracted_data = pd.DataFrame(columns=['name', 'height', 'weight'])  
-    
+
+
     # process all csv files
-    csv_files = glob.glob("*.csv")
+    csv_files = glob.glob("**/*.csv", recursive=True)
     print(f"CSV files found: {csv_files}")
     for csvfile in csv_files:
         print(f"Processing CSV file: {csvfile}")
         extracted_data = pd.concat([extracted_data, extract_from_csv(csvfile)], ignore_index=True)
         
     # process all json files
-    json_files = glob.glob("*.json")
+    json_files = glob.glob("**/*.json", recursive=True)
     print(f"JSON files found: {json_files}")
     for jsonfile in json_files:
         print(f"Processing JSON file: {jsonfile}")
         extracted_data = pd.concat([extracted_data, extract_from_json(jsonfile)], ignore_index=True)
     
     # process all xml files
-    xml_files = glob.glob("*.xml")
+    xml_files = glob.glob("**/*.xml", recursive=True)
     print(f"XML files found: {xml_files}")
     for xmlfile in xml_files:
         print(f"Processing XML file: {xmlfile}")

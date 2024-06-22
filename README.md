@@ -11,18 +11,21 @@ problems that dives into:
    4. Create a full ETL pipeline for accessing and processing data derived from public websites
    5. Create Python modules, run unit test, and pacakge applications
 
-## Project Sequence 
+## Project Objectives 
 <img src="Project_sequence.png">
 
-## Module 01
+## ETL Process usig Python
 
-1. ETL Basics
-2. Extract data using web scraping 
-3. Query Databases using Python
+1. Read CSV, JSON, and XML file types.
+2. Extract the required data from the different file types.
+3. Transform data to the required format.
+4. Save the transformed data in a ready-to-load format, which can be loaded into an RDBMS.
 
-## Module 02
+## Web scraping and Extracting Data using APIs
 
-1. Develop ETL pipeline
+1. Use the [requests] and [BeautifulSoup] libraries to extract the contents of a web page
+2. Analyze the HTML code of a webpage to find relevant information
+3. Extract the relevant information and save it in the required form
 
 ## Module 03
 
