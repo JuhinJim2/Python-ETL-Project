@@ -14,7 +14,7 @@ problems that dives into:
 ## Project Objectives 
 <img src="Project_sequence.png">
 
-## ETL Process usig Python
+## ETL Process using Python
 
 1. Read CSV, JSON, and XML file types.
 2. Extract the required data from the different file types.
@@ -28,23 +28,9 @@ problems that dives into:
 3. Extract the relevant information and save in a CSV file.
 4. Load the dataframe into a SQL Database.
 
-## Module 03
+## Python Initialized Database
 
 1. Create modules
 2. Run unit test 
 3. Package applications
 4. Static code analysis
-
-## Data Model
-<img src="uber_data_model.png">
-
-
-## Sample Looker Visualization
-<img src="Uber_Data_Analytics_-_Payment_Type_Distribution.png">
-
-This is a sample dashboard. Data analysts can create their own dashboards tailored to their specific use cases since the data is at an atomic level.
-
-See Sample Dashboard: https://lookerstudio.google.com/reporting/e9764425-6638-4eba-ac09-e9e3977c28fc
-
-## Credits
-All of the credits belong to Darshil Parmar for inspiration and resource.
